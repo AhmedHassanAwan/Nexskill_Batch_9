@@ -1,0 +1,171 @@
+
+/* unIverSaL SeLector */
+/* *{
+    background-color: red;
+} */
+
+
+/* type SeLector */
+
+/* h1,h2,h3,p{
+    color: red;
+} */
+
+
+
+/* class selector */
+
+
+/* .head{
+    color: purple;
+}
+
+
+#one{
+    color: brown;
+} */
+
+
+
+
+
+
+/* ol>li>a{
+    color: red;
+} */
+
+
+
+/* 
+ol a{
+    color: red;
+} */
+
+
+
+/* p>a>span{
+    color: red;
+} */
+
+
+
+/* p span{
+    color: aqua;
+} */
+
+
+
+/* h1+p{
+    color: green;
+} */
+
+
+
+/* h1~p{
+    color: orange;
+} */
+
+
+/* #one{
+    color: blue !important;
+}
+
+h1{
+    color: red;
+}
+
+
+h1{
+    color: green ;
+}
+
+.head{
+    color: aqua;
+}
+
+
+
+h1{
+    color: purple;
+} */
+
+
+
+/* 
+div{
+    color: red;
+} */
+
+
+/* /* color name * */
+/* h1{
+    color: red;
+} */
+
+
+/* hex code */
+/* h1{
+    color: #800080;
+} */
+
+
+/* h1{
+    color: rgb(255, 0, 0);
+} */
+
+
+
+
+/* h1{
+    color: rgb(0, 163, 108);
+} */
+
+
+
+/* h1{
+    color: #0000fe;
+} */
+
+
+
+
+
+
+/* body{
+    background-color: #000;
+} */
+
+
+/* h1{
+    color: rgb(255, 20, 200);
+} */
+
+
+
+/* body{
+    background-color: blue;
+} */
+
+
+
+
+
+/* h1{
+    background-color: red;
+    opacity: 0.5;
+} */
+
+
+/* h1{
+    background-color: rgba(255, 0, 0, 0.1);
+} */
+
+
+
+
+
+h1{
+    background-color: hsla(120, 100%, 50%, 0.5);
+    /* background-color: hsl(120, 100%, 50%); */
+
+}
