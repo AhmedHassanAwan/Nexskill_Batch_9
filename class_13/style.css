@@ -1,0 +1,156 @@
+
+/* @import url(./style2.css); */
+
+/* h1{
+    color: red;
+} */
+
+
+
+/* body{
+    background-color: aqua;
+} */
+
+
+
+/* @media only screen and (max-width:450px) {
+    body{
+        background-color: red;
+    }
+    h1{
+        color: white;
+    }
+    
+} */
+
+
+
+/* 
+@media only screen and (min-width:700px) {
+    body{
+        background-color: brown;
+    }
+    
+} */
+
+
+/* 
+
+h1{
+    color: black;
+} */
+
+
+/* 
+h2{
+    display: none;
+    visibility: hidden;
+
+} */
+
+
+
+/* 
+@media only screen and (max-width:480px) {
+
+    h1{
+        display: none;
+    }
+    
+    h2{
+        visibility: visible;
+        color: brown;
+    }
+    
+} */
+
+
+/* .div {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+} */
+
+
+
+
+
+
+/* 
+@media only screen and  (min-width:480px) and (max-width:700px) {
+    .div{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+    }
+    
+} */
+
+
+
+/* Media quries */
+/* 
+
+@media only screen and (max-width:480px) {
+    .div {
+        background-color: blueviolet;
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:578px) and (max-width:768px) {
+    .div {
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+
+
+
+@media only screen  and (min-width:992px) and (max-width:1200px) {
+      .div {
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+    }
+
+    
+} */
+
+
+
+
+/* body{ */
+    /* background-image: url(https://img.magnific.com/free-photo/abstract-gradient-background-with-grain-texture_84443-2838.jpg?semt=ais_hybrid&w=740&q=80); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center bottom; */
+    /* background-position: left top; */
+/* } */
+
+
+
+/* div{ */
+   /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/053/733/179/small/every-detail-of-a-sleek-modern-car-captured-in-close-up-photo.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* border: 1px solid black; */
+    /* background-position: center right; */
+/* } */
+
+
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/053/733/179/small/every-detail-of-a-sleek-modern-car-captured-in-close-up-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
