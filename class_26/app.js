@@ -98,7 +98,7 @@
 // // setInterval
 // // setTimeout
 // // promises
-// API
+//     API
 // // fetch
 // // axios
 
@@ -224,72 +224,50 @@
 //     console.log("Fetch error:", err);
 //   });
 
- fetch("https://dummyjson.com/products")
-            .then((res) => {
-                if (!res.ok) {
-                    throw new Error("Failed to fetch products");
-                }
-                return res.json();
-            })
-            .then((data) => {
-                const container = document.getElementById("div");
+fetch(`https://dummyjson.com/products`)
+.then((res)=>{
+     return res.json()
+})
+.then((data)=>{
+     console.log(data.products);  
+     data.products.map((items)=>{
+        div.innerHTML += `
+        <div class="card">
+            <div class="image-box">
+                <img
+                    src="${items.images}"
+                    alt="images"
+                >
+                <span class="discount">${items.discountPercentage}% OFF</span>
+            </div>
 
-                data.products.forEach((product) => {
-                    const card = document.createElement("div");
-                    card.className = "card";
+            <div class="card-content">
+                <h2${items.description}</h2>
 
-                    const oldPrice = (
-                        product.price /
-                        (1 - product.discountPercentage / 100)
-                    ).toFixed(2);
+                <p class="price">$${items.price}</p>
 
-                    card.innerHTML = `
-                        <img
-                            src="${product.thumbnail}"
-                            alt="${product.title}"
-                            loading="lazy"
-                        >
+                <p class="old-price">
+                    Original price:
+                    <span>$11.16</span>
+                </p>
 
-                        <div class="card-content">
-                            <h2>${product.title}</h2>
+                <div class="rating">
+                    ★★★☆☆ <span>${items.rating} / 5</span>
+                </div>
 
-                            <div class="price">
-                                $${product.price.toFixed(2)}
-                            </div>
+                <p class="stock">● ${items.availabilityStatus}</p>
 
-                            <div>
-                                <span class="old-price">
-                                    $${oldPrice}
-                                </span>
+                <button class="buy-btn" onclick="buyNow()">
+                    order Now
+                </button>
+            </div>
 
-                                <span class="discount">
-                                    -${product.discountPercentage}%
-                                </span>
-                            </div>
+        </div>
+        
+        `
+    })
+})
 
-                            <div class="rating">
-                                ★ ${product.rating} | ${product.brand || product.category}
-                            </div>
-
-                            <p class="description">
-                                ${product.description}
-                            </p>
-
-                            <p class="stock">
-                                ${product.availabilityStatus}
-                            </p>
-
-                            <button class="buy-btn">
-                               Add to Card
-                            </button>
-                        </div>
-                    `;
-
-                    container.appendChild(card);
-                });
-            })
-            .catch((err) => {
-                document.getElementById("div").textContent =
-                    "Error loading products: " + err.message;
-                console.error(err);
-            });
+.catch((err)=>{
+    console.log(err);
+})
