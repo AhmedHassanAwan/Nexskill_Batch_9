@@ -16,6 +16,9 @@
 // //                 <span class="discount">${items.discountPercentage}% OFF</span>
 // //             </div>
 
+
+
+
 // //             <div class="card-content">
 // //                 <h2${items.description}</h2>
 
@@ -91,10 +94,41 @@
 
 
 
-import { add , name } from "./sum.js";
-// import { name } from "./sum.js";
+// import { add , name } from "./sum.js";
+// // import { name } from "./sum.js";
 
 
-console.log(name);
+// console.log(name);
 
-console.log(add(2, 3));
+// console.log(add(2, 3));
+
+
+
+
+// import add from "./sum.js"
+// // import { add, minus, mul, name } from "./sum.js";
+
+
+
+// import add from "./sum.js";
+// console.log(add(2,4));
+
+
+// // console.log("hellow js");
+
+
+// // console.log(add(2,4));
+// // console.log(minus(2,4));
+// // console.log(mul(2,4));
+// // console.log(name);
+
+
+
+
+var input = document.getElementById("input")
+
+function bug(params) {
+    console.log(input.value);
+    
+    
+}

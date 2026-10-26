@@ -2,13 +2,24 @@
 
 
 
- let name = "ali"
- function add(a, b) {
-  return a + b;
+
+ export default function add(num1,num2) {
+    return num1 + num2
 }
 
 
-export {name , add};
+
+//  function minus(num1,num2) {
+//     return num1 - num2
+// }
 
 
 
+//  function mul(num1,num2) {
+//     return num1 * num2
+// }
+
+
+// const name = "ali"
+
+// export {add , minus , mul , name}
