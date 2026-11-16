@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+
+
+
+
+// import about from "../../compoennts/about.jsx"
+// import about from "@/compoennts/about.jsx"

@@ -75,6 +75,8 @@
 
 import React, { useState } from 'react'
 import UseName from './hocks/UseName';
+import { FaFacebook } from "react-icons/fa";
+
 
 function App() {
   // const [name , setName] = useState("ali");
@@ -86,7 +88,7 @@ function App() {
   return (
     <>
 
-    <h3>{name}</h3>
+    <h3>{name} <FaFacebook /> </h3>
 
     <button onClick={()=> changeName()}>change name</button>
 
