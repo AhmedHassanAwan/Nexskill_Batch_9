@@ -37,16 +37,23 @@ app.listen(port, () => {
 
 
 
-// HTTP Method
-// Get -> data lay kar anaa
-// Post -> create
-// delete -> koi b kam ko delete karwana
-// put -> koi  b kam ko update karwana puray obj ko update karta hya
-// patch -> kisi b specific fields  ko update karna
+// HTTP Methods
+
+// GET -> Data lay kar aana.
+
+// POST -> New data create karna.
+
+// DELETE -> Kisi bhi data ko delete karwana.
+
+// PUT -> Pooray object ko update karna.
+
+// PATCH -> Kisi bhi specific field ko update karna.
 
 
+// Packages
 
+// Express install karna
+// npm i express
 
-// pakages
-// npm i express js
-// npm i nodemon 
+// Nodemon install karna
+// npm i nodemon
